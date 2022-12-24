@@ -9,13 +9,15 @@
     flex-grow: 1;
 }
 .video-buttons-container {
-    background-color:black;
+    background-color: black;
 }
 .video-buttons {
+    width: 40px;
+    height: 40px;
     font-size: 20px;
     line-height: 1.5;
-    border:none;
-    cursor:pointer;
-    color:white;
-    background-color:transparent;
+    border: none;
+    cursor: pointer;
+    color: white;
+    background-color: transparent;
 }
