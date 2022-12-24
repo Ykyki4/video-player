@@ -4,6 +4,8 @@
 
 Работает по этой [ссылке](https://ykyki4.github.io/video-player/).
 
+![](https://github.com/Ykyki4/video-player/blob/main/media/readme-example.png)
+
 ## Для запуска локально
 
 Если вы хотите запустить этот сайт локально, вам надо:
