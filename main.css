@@ -1,0 +1,17 @@
+.player {
+    width: 800px;
+    height: 600px;
+}
+.video-container {
+    width: 100%;
+    height: 100%;
+}
+.video-buttons-container {
+    background-color:black;
+}
+.video-buttons {
+    border:none;
+    cursor:pointer;
+    color:white;
+    background-color:transparent;
+}
