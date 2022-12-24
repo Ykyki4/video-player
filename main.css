@@ -10,6 +10,8 @@
 }
 .video-buttons-container {
     background-color: black;
+    display: flex;
+    flex-direction: row;
 }
 .video-buttons {
     width: 40px;
@@ -20,4 +22,7 @@
     cursor: pointer;
     color: white;
     background-color: transparent;
+}
+.empty {
+    flex-grow: 1;
 }
