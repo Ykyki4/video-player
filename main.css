@@ -8,15 +8,15 @@
 .video-container {
     flex-grow: 1;
 }
-.video-buttons-container {
+.video-interface-container {
     background-color: black;
     display: flex;
+    align-items: center;
     flex-direction: row;
+    height: 44px;
+
 }
 .video-buttons {
-    margin: 0px 3px 0px 3px;
-    width: 30px;
-    height: 45px;
     font-size: 20px;
     line-height: 1.5;
     border: none;
@@ -24,6 +24,21 @@
     color: white;
     background-color: transparent;
 }
-.empty {
+
+.left-video-buttons .video-buttons {
+    width: 35px;
+}
+.right-video-buttons .video-buttons{
+    width: 37px
+}
+
+.timer-container {
+    color: white;
+    flex-grow: 1;
+    display: flex;
+    font-family: 'Roboto', sans-serif;
+}
+.progressbar {
+    display: flex;
     flex-grow: 1;
 }

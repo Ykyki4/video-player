@@ -3,6 +3,9 @@
 <head>
   <title>Video Player</title>
   <meta charset="utf-8">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="main.css">
   <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
@@ -10,13 +13,31 @@
 <body>
 <div id="player" class="player">
   <div class="js-video-container video-container"></div>
-  <div class="video-buttons-container">
-    <button class="js-play-button video-buttons"><i class="fa fa-play" aria-hidden="true"></i></button>
-    <button class="js-pause-button video-buttons"><i class="fa fa-pause" aria-hidden="true"></i></button>
-    <button class="js-mute-button video-buttons"><i class="fa fa-volume-up" aria-hidden="true"></i></button>
-    <button class="js-volume-button video-buttons"><i class="fa fa-volume-off" aria-hidden="true"></i></button>
-    <div class="empty"></div>
-    <button class="js-fullscreen-button video-buttons"><i class="fa fa-expand" aria-hidden="true"></i></button>
+  <div class="video-interface-container">
+    <div class="left-video-buttons">
+      <button class="js-play-button play video-buttons">
+        <i class=" fa fa-play" aria-hidden="true"></i>
+      </button>
+      <button class="js-pause-button pause video-buttons">
+        <i class="fa fa-pause" aria-hidden="true"></i>
+      </button>
+      <button class="js-mute-button volume video-buttons">
+        <i class="fa fa-volume-up" aria-hidden="true"></i>
+      </button>
+      <button class="js-volume-button mute video-buttons">
+        <i class="fa fa-volume-off" aria-hidden="true"></i>
+      </button>
+    </div>
+    <div class="timer-container">
+      <div class="current-time js-current-time"></div>
+      <div class="progressbar"></div>
+      <div class="duration-time js-duration"></div>
+    </div>
+    <div class="right-video-buttons">
+      <button class="js-fullscreen-button video-buttons">
+        <i class="fa fa-expand" aria-hidden="true"></i>
+      </button>
+    </div>
   </div>
 </div>
 <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
