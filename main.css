@@ -17,19 +17,13 @@
 
 }
 .video-buttons {
+    width: 35px;
     font-size: 20px;
     line-height: 1.5;
     border: none;
     cursor: pointer;
     color: white;
     background-color: transparent;
-}
-
-.left-video-buttons .video-buttons {
-    width: 35px;
-}
-.right-video-buttons .video-buttons{
-    width: 37px
 }
 
 .timer-container {
